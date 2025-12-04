@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutherford Scattering Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rutherford Scattering</h1>
+        </header>
+
+        <div class="main-content">
+            <div class="simulation-area">
+                <div class="model-selector">
+                    <button class="model-btn active" data-model="rutherford">
+                        <div class="model-icon nucleus-icon"></div>
+                        <span>Rutherford Atom</span>
+                    </button>
+                    <button class="model-btn" data-model="plum-pudding">
+                        <div class="model-icon plum-icon"></div>
+                        <span>Plum Pudding Atom</span>
+                    </button>
+                </div>
+
+                <div class="alpha-source">
+                    <div class="source-container">
+                        <div class="source-top"></div>
+                        <div class="source-middle"></div>
+                        <div class="source-bottom">
+                            <div class="radioactive-symbol"></div>
+                        </div>
+                    </div>
+                    <p>Alpha Particles</p>
+                </div>
+
+                <canvas id="scatteringCanvas" width="700" height="500"></canvas>
+
+                <div class="controls">
+                    <button id="playBtn" class="control-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                    </button>
+                    <button id="pauseBtn" class="control-btn" style="display:none;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="6" y="4" width="4" height="16"></rect>
+                            <rect x="14" y="4" width="4" height="16"></rect>
+                        </svg>
+                    </button>
+                    <button id="resetBtn" class="control-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="control-panel">
+                <div class="legend">
+                    <h3>Legend</h3>
+                    <div class="legend-item">
+                        <span class="legend-dot proton"></span>
+                        <span>Proton</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-dot neutron"></span>
+                        <span>Neutron</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-dot alpha"></span>
+                        <span>Alpha Particle</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Alpha Particle</h3>
+                    <label>Energy</label>
+                    <div class="slider-container">
+                        <span class="slider-label">min</span>
+                        <input type="range" id="energySlider" min="0" max="100" value="75">
+                        <span class="slider-label">max</span>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="tracesCheckbox" checked>
+                        <label for="tracesCheckbox">Traces</label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Atom</h3>
+                    <label>Protons</label>
+                    <div class="number-input">
+                        <button class="number-btn" data-target="protons" data-action="decrease">◀</button>
+                        <input type="number" id="protonsInput" min="20" max="100" value="80">
+                        <button class="number-btn" data-target="protons" data-action="increase">▶</button>
+                    </div>
+                    <input type="range" id="protonsSlider" min="20" max="100" value="80">
+                    <span class="range-labels"><span>20</span><span>100</span></span>
+
+                    <label>Neutrons</label>
+                    <div class="number-input">
+                        <button class="number-btn" data-target="neutrons" data-action="decrease">◀</button>
+                        <input type="number" id="neutronsInput" min="20" max="150" value="121">
+                        <button class="number-btn" data-target="neutrons" data-action="increase">▶</button>
+                    </div>
+                    <input type="range" id="neutronsSlider" min="20" max="150" value="121">
+                    <span class="range-labels"><span>20</span><span>150</span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="group-members">
+            <h3>GROUP MEMBERS</h3>
+            <div class="members-grid">
+                <div class="member-card">
+                    <span class="member-name">Sumit Shrivastava</span>
+                    <span class="member-id">25BAI10961</span>
+                </div>
+                <div class="member-card">
+                    <span class="member-name">Ankit Sen</span>
+                    <span class="member-id">25BAI10915</span>
+                </div>
+                <div class="member-card">
+                    <span class="member-name">Ishan Shrivas</span>
+                    <span class="member-id">25BAI10966</span>
+                </div>
+                <div class="member-card">
+                    <span class="member-name">Pranshu Gupta</span>
+                    <span class="member-id">25BAI11057</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
