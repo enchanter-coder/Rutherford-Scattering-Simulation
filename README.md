@@ -1,6 +1,6 @@
 # Rutherford-Scattering-Simulation
 
-## Click here to run the simulation 👇:
+## Click here to run the simulation 👇
 https://enchanter-coder.github.io/Rutherford-Scattering-Simulation/
 
 
@@ -34,10 +34,11 @@ An interactive web-based simulation of the famous Gold Foil Experiment (1909), d
 ```text
 /project-folder
 │
-├── index.html      # Main structure and UI layout
+├── Demo.mp4        # Shows the demo video of simulation, please use "View raw" option to see the video
+├── README.md       # Project documentation
 ├── styles.css      # Dark theme styling, animations, and responsiveness
 ├── script.js       # Physics engine, particle logic, and canvas drawing
-└── README.md       # Project documentation
+└── index.html      # Main structure and UI layout
 ```
 
 ## ⚛️ The Physics Behind It
