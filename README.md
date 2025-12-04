@@ -1,3 +1,4 @@
+# GROUP 6
 # Rutherford-Scattering-Simulation
 
 ## Click the link below to directly run the simulation 👇
@@ -55,7 +56,7 @@ The simulation demonstrates three key observations from Rutherford's experiment:
 2.  Ensure `index.html`, `styles.css`, and `script.js` are in the same folder.
 3.  Open **`index.html`** in any modern web browser (Chrome, Firefox, Edge, Safari).
 
-## 👥 Group Members
+## 👥 Group Members of GROUP 6
 
 | Name | ID |
 | :--- | :--- |
