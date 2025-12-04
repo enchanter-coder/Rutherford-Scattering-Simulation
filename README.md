@@ -8,7 +8,7 @@ https://enchanter-coder.github.io/Rutherford-Scattering-Simulation/
 <img width="2028" height="2048" alt="image" src="https://github.com/user-attachments/assets/c5856379-450d-48de-bec2-fadb261b9d10" />
 
 
-An interactive web-based simulation of the famous Gold Foil Experiment (1909), demonstrating the discovery of the atomic nucleus. This project visualizes how alpha particles interact with atoms, comparing the **Rutherford Nuclear Model** against the disproven **Thomson Plum Pudding Model**.
+An interactive web-based simulation of the famous Gold Foil Experiment (1911), demonstrating the discovery of the atomic nucleus. This project visualizes how alpha particles interact with atoms, comparing the **Rutherford Nuclear Model** against the disproven **Thomson Plum Pudding Model**.
 
 ## ⚙️ Features
 
