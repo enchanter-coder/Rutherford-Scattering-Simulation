@@ -48,7 +48,7 @@ The simulation demonstrates three key observations from Rutherford's experiment:
 
 1.  **Most particles pass straight through:** Because the atom is mostly empty space.
 2.  **Some deflect at small angles:** Due to the repulsive force as they pass near the positive nucleus.
-3.  **Very few bounce back (\>180°):** Occurs only when an alpha particle approaches the nucleus head-on, encountering massive electrostatic repulsion.
+3.  **Very few bounce back (about 180°):** Occurs only when an alpha particle approaches the nucleus head-on, encountering massive electrostatic repulsion.
 
 ## 👨‍💻 How to Run
 
