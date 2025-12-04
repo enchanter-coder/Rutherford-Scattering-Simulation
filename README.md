@@ -1,5 +1,8 @@
 # Rutherford-Scattering-Simulation
 
+##Click here to run the simulation 👇:
+https://enchanter-coder.github.io/Rutherford-Scattering-Simulation/
+
 
 <img width="2028" height="2048" alt="image" src="https://github.com/user-attachments/assets/c5856379-450d-48de-bec2-fadb261b9d10" />
 
