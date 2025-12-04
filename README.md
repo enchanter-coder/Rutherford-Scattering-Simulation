@@ -1,6 +1,6 @@
 # Rutherford-Scattering-Simulation
 
-##Click here to run the simulation 👉:
+## Click here to run the simulation 👉:
 https://enchanter-coder.github.io/Rutherford-Scattering-Simulation/
 
 
