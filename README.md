@@ -6,7 +6,7 @@
 
 An interactive web-based simulation of the famous Gold Foil Experiment (1909), demonstrating the discovery of the atomic nucleus. This project visualizes how alpha particles interact with atoms, comparing the **Rutherford Nuclear Model** against the disproven **Thomson Plum Pudding Model**.
 
-## 🚀 Features
+## ⚙️ Features
 
   * **Dual Atomic Models:**
       * **Rutherford Atom:** Visualizes the small, dense, positively charged nucleus. shows alpha particles deflecting based on the inverse-square law of electrostatic repulsion.
@@ -37,7 +37,7 @@ An interactive web-based simulation of the famous Gold Foil Experiment (1909), d
 └── README.md       # Project documentation
 ```
 
-## 🧪 The Physics Behind It
+## ⚛️ The Physics Behind It
 
 The simulation demonstrates three key observations from Rutherford's experiment:
 
@@ -45,7 +45,7 @@ The simulation demonstrates three key observations from Rutherford's experiment:
 2.  **Some deflect at small angles:** Due to the repulsive force as they pass near the positive nucleus.
 3.  **Very few bounce back (\>90°):** Occurs only when an alpha particle approaches the nucleus head-on, encountering massive electrostatic repulsion.
 
-## 🚀 How to Run
+## 👨‍💻 How to Run
 
 1.  Download or clone the repository.
 2.  Ensure `index.html`, `styles.css`, and `script.js` are in the same folder.
